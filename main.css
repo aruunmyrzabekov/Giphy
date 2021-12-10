@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(45deg,#000000,#111,#333);
+    max-width: 100%;
+    min-height: 100vh;
+}
+header{
+    margin: 0 auto;
+    padding: 50px auto;
+    height: 350px;
+    max-width: 90%;
+    border: 1px orange solid;
+    
+}
+h1{
+    padding-top: 140px;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    color: orange;
+    text-transform: uppercase;
+}
+ol{
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: -250px;
+}
+li{
+    margin: 50px auto;
+    color: orange;
+    font-size: 40px;
+}
+input{
+    margin-left:  30%;
+    margin-top: 100px ;
+    margin-bottom: 100px;
+    width: 40%;
+    border: 2px orange solid;
+    outline: none;
+    background: linear-gradient(#333,#444);
+    height: 50px;
+}
+
+button{
+    text-transform: uppercase;
+    width: 80px;
+    border-radius: 20%;
+    margin: 0 auto;
+    background: rgb(252, 219, 87);
+    color: rgb(23, 87, 2);
+    height: 50px;
+    border: 1px orange solid;
+    outline: none;
+}
+#output{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 20%;
+    margin: 10px ;
+    border: 15px orange solid;
+}
+.footer_li{
+    margin-top: 10%;
+    padding-top: 20%;
+    border: 1px orange solid;
+    height:300px ;
+}
